@@ -24,6 +24,7 @@
         </tr>
       </thead>
       <tbody>
+        <?php include 'data.php'; ?>
         <?php if (!empty($dados)): ?>
           <?php foreach ($dados as $linha): ?>
             <tr>
